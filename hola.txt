@@ -1,0 +1,1 @@
+En este repositorio me parecio buena idea documentar las distintas materiascursadas en la universidad, transformadas en codigo y puestas en practicas como una especie de analisis de lo visto e implementado en la materia 
