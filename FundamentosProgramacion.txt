@@ -1,0 +1,15 @@
+-FUNDAMENTOS DE LA PROGRAMACION-
+
+Dentro de la materia de fundamentos de la programacion tenemos los principios o mas bien los conceptos y base de lo que es la programacion , pero vista de manera mas teorica, esto nos ayuda a reforzar el hecho de que la programacion esta compuesta de muchos agentes externos que ejercemos en la cotidianidad.
+
+-ALGORITMOS-:en esta materia vemos cosas como algoritmos, que aunque suene complejo dentro de la programacion ,no es mas que una accion intructiva que tenemos absolutamente todos a la hora de realizar cualquier accion.
+La descomposicion de problemas y la resolucion de los mismos mediante los famosos "PASO A PASO" son la base de los algoritmos, el saber cuantas acciones debo ejercer para abrir una puerta o prender la luz mediante un interruptor.Esto nos introduce a un pensamiento mas racional acerca de como enfrentar un problema y su resolucion.
+
+Una vez que ya tenemos "amoldado" nuestro pensamiento cotidiano al pensamiento computacional ya empezamos a ver adentro de la materia temas como lenguajes de programacion , mas especificamente sus funcionamientos y finalidad ,esto nos lleva consigo a una parte de analisis acerca de los lenguajes en general sus tipos de datos , de tipado o la forma en la que los lenguajes compilan la informacion y la ejecutan.
+
+Posteriormente, una vez que tenemos interiorizado el funcionamiento DE MANERA TEORICA, comenzamos con las estructuras de datos, esto nos ayuda no solamente a desarollar algoritmos mas limpios sino diferentes maneras de crear nuestros algoritmos mediante sus condicionales , sus bucles y su estructura secuancial. 
+Esta parte de estructura de datos nos ayudan a de manera meramente teorica poder visualizar un algoritmo y mediante estos items aprendidos poder AUTOMATIZAR los procesos
+
+Una vez que tenemos una base solida en lo que son los algoritmos y estructuras ya estamos en condiciones, mediante laboratorio, a escribir codigo e implementarlos en tema como funciones y arreglos modificando las cadenas de textos a nuestra voluntad para crear distintos tipos de problemas y solucionarlos llegando hasta el ultimo tema que abarca todo lo que es la Programacion orientada a objetos en donde ya entran subtemas como clases ,promesas o herencias que nos llevan a moldear nuestra cabeza para la materia que cursamos al mismo tiempo que es DESARROLLO DE SOFTWARE.
+
+uo

@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\fundamentos de la programacion\bin\Debug\net9.0\fundamentos de la programacion.exe
+C:\Users\USER\Desktop\fundamentos de la programacion\bin\Debug\net9.0\fundamentos de la programacion.deps.json
+C:\Users\USER\Desktop\fundamentos de la programacion\bin\Debug\net9.0\fundamentos de la programacion.runtimeconfig.json
+C:\Users\USER\Desktop\fundamentos de la programacion\bin\Debug\net9.0\fundamentos de la programacion.dll
+C:\Users\USER\Desktop\fundamentos de la programacion\bin\Debug\net9.0\fundamentos de la programacion.pdb
+C:\Users\USER\Desktop\fundamentos de la programacion\obj\Debug\net9.0\fundamentos de la programacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\fundamentos de la programacion\obj\Debug\net9.0\fundamentos de la programacion.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\fundamentos de la programacion\obj\Debug\net9.0\fundamentos de la programacion.AssemblyInfo.cs
+C:\Users\USER\Desktop\fundamentos de la programacion\obj\Debug\net9.0\fundamentos de la programacion.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\fundamentos de la programacion\obj\Debug\net9.0\fundamentos de la programacion.sourcelink.json
+C:\Users\USER\Desktop\fundamentos de la programacion\obj\Debug\net9.0\fundamentos de la programacion.dll
+C:\Users\USER\Desktop\fundamentos de la programacion\obj\Debug\net9.0\refint\fundamentos de la programacion.dll
+C:\Users\USER\Desktop\fundamentos de la programacion\obj\Debug\net9.0\fundamentos de la programacion.pdb
+C:\Users\USER\Desktop\fundamentos de la programacion\obj\Debug\net9.0\fundamentos de la programacion.genruntimeconfig.cache
+C:\Users\USER\Desktop\fundamentos de la programacion\obj\Debug\net9.0\ref\fundamentos de la programacion.dll
