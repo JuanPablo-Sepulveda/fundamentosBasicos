@@ -50,6 +50,10 @@ Ahi entra "namespace"
 */
 
 using System;
+using System.ComponentModel;
+using System.Reflection;
+using System.Security.Cryptography.X509Certificates;
+
 
 namespace primerSpace
 {
@@ -68,21 +72,111 @@ namespace segundoSpace
     {
         public void Saludo()
         {
-            Console.WriteLine("estoy saludando desde el espacio 2");
+            Console.WriteLine("Estoy saludando desde el espacio 2");
         }
     }
 }
+class Variables()
+{
+    public void variables()
+    {
+        Console.WriteLine("-------------------------");
+        Console.WriteLine("VARIABLES");
+        int x; //declaracion
+        x =12; // inicializacion
+        int y = 78; // declaracion e inicializacion
+        int suma= x + y;
+        int edad= 50;
+        int peso=20;
+        Console.WriteLine(x);
+        Console.WriteLine(y);
+        Console.WriteLine(suma);
+        Console.WriteLine("tu edad es: "+edad);
+        Console.WriteLine("tu peso es de: "+peso);
 
+        Console.WriteLine("La suma de  x E y es: "+suma);
+        
+        Console.WriteLine("Booleanos");
+        bool comparar = edad==peso;
+        Console.WriteLine("el booleano es: "+comparar);
+        Console.WriteLine("Chars");
+        char simbolo ='#';
+        Console.WriteLine("el char es : "+simbolo);
+        Console.WriteLine("String");
+        string animal = "gato";
+        Console.WriteLine("el string es: "+animal);
+
+        Console.WriteLine("-------------------------");
+    }
+}
+//tambien podriamos, para seguir practicando el contexto de ejecucion de c#, intentar crer dos saludos desde un mismo namespace
 class programaSaludo
 {
-    static void Main(){
+    static void Main(string[] arg)
+    {
         primerSpace.Saludo1 obj1= new primerSpace.Saludo1();
-        segundoSpace.Saludo2 obj2= new segundoSpace.Saludo2();
+        segundoSpace.Saludo2 obj2=new segundoSpace.Saludo2();
+        Variables variablesInstance = new Variables();
+        
 
         obj1.Saludo();
         obj2.Saludo();
-
+        SumarNumeros(); 
+        variablesInstance.variables();
+        
+        
+    
+        
     }
+    static void SumarNumeros()
+    {
+     try{
+        Console.Write("ingrese el primer numero: ");
+        String? input1 = Console.ReadLine();
+        if (string.IsNullOrEmpty(input1))
+        {
+            Console.WriteLine("entrada no valida");
+            return;
+        }
+        int num1 =int.Parse(input1);
+       
+
+        Console.Write("ingrese el segundo numero: ");
+        string? input2 = Console.ReadLine();
+        if(string.IsNullOrEmpty(input2))
+        {
+            Console.WriteLine("entrada no valida");
+            return;
+        }
+        int num2 =int.Parse(input2);
+       
+
+        int resultado = num1 + num2;
+        Console.WriteLine($"El resultado de la suma es {resultado}");
+
+        
+     }
+     catch (FormatException)
+     {
+        Console.WriteLine("ingrese un numero valido");
+     }
+    }
+    
 }
 
-//nota crear sistema de cuentas en diferentes name spaces
+/* si bien dentro del contexto de ejecucion de c# solo podemos tener un punto de entrada, el main estatico, podemos sobrecargar la clase donde se encuentra con otros main estaticos que si bien , NO son el punto de inicio nos sirven para poder ejecutar diferentes tipos de actividades
+Para eso aparte dle codigo voy aa proporcionar un sistema de suma en un main estatico diferente en el codigo que ya utilizamos arriba  para demostarlo
+*/
+//======================================================================================================//
+/*
+una vez que entendemos el metodo de ejecucion vamos a varaibles.
+dentro de las variables no vamos a ir a sus tipos sino que vamos a ir a su procedimientos para entenderlas mejor
+
+A la hora de crear una variable, al ser c# un progrma con un tipado fuerte primero debemos declarar el tipo de dato para poder utilizarlo.
+el tipado hace que a un entero podamos declararlo para posteriormente inicializarlo o ambas al mismo tiempo
+
+*/
+
+
+
+
