@@ -109,6 +109,42 @@ class Variables()
         Console.WriteLine("-------------------------");
     }
 }
+class Constantes()
+{
+    public void constantes()
+    {
+        Console.WriteLine("-------------------------");
+        Console.WriteLine("CONSTANTES");
+        const double Gravedad= 9.8; // const=paarametro de constante y double para numeros decimales limitados
+        Console.WriteLine("la gravedad es de: "+Gravedad);
+        Console.WriteLine("-------------------------");
+    
+    }
+}
+class TypeCasting()
+{
+    public void typeCasting()
+    {
+        Console.WriteLine("-------------------------");
+        Console.WriteLine("TypeCasting");
+        double gravedad=9.8;
+        int Entero = Convert.ToInt32(gravedad); // el metodo convert.ToInt32 redondea doubles a enteros
+        string EsUnString=Convert.ToString(gravedad);// si bien en la consola seguira apareciendo "9.8" sera en formato string
+        string Falso="false";
+        bool Mifalso= Convert.ToBoolean(Falso);
+
+
+
+        Console.WriteLine("la gravedad redondeada es de: "+Entero);
+        Console.WriteLine("esto esta en foramto string: "+EsUnString);
+        Console.WriteLine(EsUnString.GetType());// para corroborar mediante consola que la declaracion"EsUnString" estae n formato string
+        Console.WriteLine("esto esta pasado a formato booleano: "+Mifalso);
+        Console.WriteLine("-------------------------");
+    }
+}
+
+
+
 //tambien podriamos, para seguir practicando el contexto de ejecucion de c#, intentar crer dos saludos desde un mismo namespace
 class programaSaludo
 {
@@ -116,13 +152,18 @@ class programaSaludo
     {
         primerSpace.Saludo1 obj1= new primerSpace.Saludo1();
         segundoSpace.Saludo2 obj2=new segundoSpace.Saludo2();
-        Variables variablesInstance = new Variables();
+        Variables variablesInstancia = new Variables();
+        Constantes ConstantesInstancia = new Constantes();
+        TypeCasting TypeCasting = new TypeCasting();
         
 
         obj1.Saludo();
         obj2.Saludo();
         SumarNumeros(); 
-        variablesInstance.variables();
+        variablesInstancia.variables();
+        ConstantesInstancia.constantes();
+        TypeCasting.typeCasting();
+        
         
         
     
@@ -169,12 +210,16 @@ Para eso aparte dle codigo voy aa proporcionar un sistema de suma en un main est
 */
 //======================================================================================================//
 /*
-una vez que entendemos el metodo de ejecucion vamos a varaibles.
+una vez que entendemos el metodo de ejecucion vamos a VARIABLES.
 dentro de las variables no vamos a ir a sus tipos sino que vamos a ir a su procedimientos para entenderlas mejor
-
 A la hora de crear una variable, al ser c# un progrma con un tipado fuerte primero debemos declarar el tipo de dato para poder utilizarlo.
 el tipado hace que a un entero podamos declararlo para posteriormente inicializarlo o ambas al mismo tiempo
 
+CONSTANTES
+Las constantes nos sirven para declarar o inicializar datos que no querramos que cambien su valor
+
+TypeCasting
+estos metodos los utilizamos para convertir valores a distintos tipos de datos ejemplo: de numeros decimales a enteros, string, double a string o incluso bolleanos
 */
 
 
