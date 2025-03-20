@@ -1,0 +1,1 @@
+En este repositorio empezamos con los fundamentos basicos de C# a nivel universitario, donde exploramos fundamentos basicos y logicos al igual que los metodos iniciales del lenguaje en si, Variable,Constantes, TypeCasting y su respectivo metodo de ejecucion
